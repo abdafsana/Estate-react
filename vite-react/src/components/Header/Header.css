@@ -1,0 +1,38 @@
+* {
+  font-family: "Roboto";
+}
+.headerStyle1 {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.headerStyle1 > img {
+  width: 140px;
+  height: 50px;
+}
+.headerStyle2 {
+  width: 33%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+.containerStyle {
+  width: 100%;
+  height: 80px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.paragraf {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.paragraf > p {
+  font-size: 14px;
+  font-weight: 400;
+}

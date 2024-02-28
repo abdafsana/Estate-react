@@ -1,0 +1,35 @@
+.section2Style {
+  width: 100%;
+  height: auto;
+}
+.sectionContainer {
+  width: 100%;
+  height: auto;
+  display: flex !important;
+  flex-direction: column;
+}
+.boxDetail {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-item {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.title-div {
+  margin: 30px 0px;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.title-div > button {
+  width: 70px;
+  height: 25px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+}
